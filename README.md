@@ -7,15 +7,15 @@ built and deployed to S3 via: [![CircleCI](https://circleci.com/gh/TodoBackend/t
 
 ## Adding a new implementation listing
 To add a new Todo-Backend implementation:
-- [ ] edit `data/implementations.yaml`
-- [ ] add any new tags to `data/impl_tags.yaml`
-- [ ] and add logos to `source/images/logos`.
+- [ ] Edit `data/implementations.yaml`
+- [ ] Add any new tags to `data/impl_tags.yaml`
+- [ ] And add logos to `source/images/logos`.
 
 ## Running a local instance of the site from source
 - *Make sure you have git submodules set up with `git submodule update --init --recursive`*
 - Install required gems with `bundle install`
-- build the site with `bundle exec rake build`
-- run a dev server with `bundle exec middleman`
+- Build the site with `bundle exec rake build`
+- Run a dev server with `bundle exec middleman`
 
 ## Running the site via docker
 A dockerized version of the site is available on Docker Hub as [moredip/todo-backend-site](https://hub.docker.com/r/moredip/todo-backend-site).
